@@ -75,6 +75,22 @@
 //   console.log("element at index ", i, "=", colors[i]);
 // }
 
-colors.forEach(function (color) {
-  console.log(color);
-});
+// colors.forEach(function (color) {
+//   console.log(color);
+// });
+
+// let fruits = ["Apple", "Banana", "Grapes", "Orange", "Kiwi"];
+// fruits.shift();
+// console.log(fruits);
+
+// printing each element of the array using for loop
+
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
+
+// Print the last element of the array using .length.
+// let fruits = ["Apple", "Banana", "Grapes", "Orange", "Kiwi", "Mango"];
+
+// console.log(fruits.length - 1);
+// console.log(fruits[fruits.length - 1]);
