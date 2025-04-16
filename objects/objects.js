@@ -118,11 +118,69 @@
 // remote.pressPower(); // TV is now ON
 // remote.pressPower(); // TV is now OFF
 
-const dog = {
-  name: "Bruno",
-  speak: function () {
-    console.log(this.name + " says woof!");
-  },
-};
+// const dog = {
+//   name: "Bruno",
+//   speak: function () {
+//     console.log(this.name + " says woof!");
+//   },
+// };
 
-dog.speak(); // Bruno says woof!
+// dog.speak(); // Bruno says woof!
+
+// const products = [
+//   { name: "Laptop", price: 1000 },
+//   { name: "Mouse", price: 25 },
+//   { name: "Keyboard", price: 75 },
+// ];
+// let discountPrice = products.map(
+//   (products) => products.price - products.price / 10
+// );
+// let totalPrice = discountPrice.reduce((accumulator, currentValue) => {
+//   return accumulator + currentValue;
+// }, 0);
+
+// console.log(totalPrice);
+
+// const student = {
+//   name: "Alex",
+//   age: 25,
+//   marks: {
+//     math: 90,
+//     science: 85,
+//     english: 95,
+//   }
+// }
+
+// console.log(student.marks.science);
+
+// const users = [
+//   { name: "Alex", age: 25, city: "New York" },
+//   { name: "John", age: 30, city: "Los Angeles" },
+//   { name: "Sara", age: 35, city: "Chicago" },
+// ];
+
+// console.log(users[2].age);
+
+// const student = {
+//   name: "Hamza",
+//   age: 18,
+//   hobbies: ["Reading", "Football", "Gaming"]
+// };
+
+// console.log(student.hobbies[2]);
+
+// const company = {
+//   name: "TechCorp",
+//   departments: [
+//     {
+//       name: "Development",
+//       employees: ["Ali", "Sara", "Usman"],
+//     },
+//     {
+//       name: "Design",
+//       employees: ["Zara", "Ayesha"],
+//     },
+//   ],
+// };
+
+// console.log(company.departments[0].employees[0]);

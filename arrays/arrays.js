@@ -94,3 +94,73 @@
 
 // console.log(fruits.length - 1);
 // console.log(fruits[fruits.length - 1]);
+
+// let num = [2, 4, 5, 7];
+// let double = num.map(function (num) {
+//   return num * 3;
+// });
+// console.log(double);
+
+// let words = ["apple", "banana", "grape", "kiwi", "watermelon"];
+// let characters = words.filter((words) => words.length > 5);
+// console.log(characters);
+
+// let scores = [80, 92, 75, 68, 99, 55];
+// let result = scores.filter((scores) => scores >= 75);
+// console.log(result);
+
+// let scores = [80, 92, 75, 68, 99, 55];
+// let result = scores.filter((scores) => scores >= 75);
+// let pass = result.map((result) => result + " Passed!");
+// for (let i = 0; i < pass.length; i++) console.log(pass[i]);
+
+function findSecondLargest(arr) {
+  let largest = -Infinity;
+  let secondLargest = -Infinity;
+
+  for (let i = 0; i < arr.length; i++) {
+    let num = arr[i];
+
+    if (num > largest) {
+      secondLargest = largest;
+      largest = num;
+    } else if (num > secondLargest && num !== largest) {
+      secondLargest = num;
+    }
+  }
+
+  if (secondLargest === -Infinity) {
+    return "No second largest number";
+  }
+
+  return secondLargest;
+}
+
+// console.log(findSecondLargest([10, 20, 5, 8])); // ➝ 10
+// console.log(findSecondLargest([5, 5, 5])); // ➝ No second largest number
+// console.log(findSecondLargest([100, 200, 150])); // ➝ 150
+
+// function uniqueValues(array) {
+//   let unique = [];
+
+//   for (let i = 0; i < array.length; i++) {
+//     if (!unique.includes(array[i])) {
+//       unique.push(array[i]);
+//     }
+//   }
+
+//   return unique;
+// }
+// console.log(uniqueValues([1, 2, 2, 3, 4, 4, 5])); // ➝ [1, 2, 3, 4, 5]
+// // console.log(uniqueValues(['apple', 'banana', 'apple', 'orange'])); // ➝ ['apple', 'banana', 'orange']
+
+// nested arrays
+
+// const classroom = [
+//     ["John", "Mary", "David"],
+//     ["Alice", "Bob"],
+//     ["Tom", "Jerry", "Mike"],
+//     ["Sarah", "Kate"]
+// ];
+
+// console.log(classroom[2][3]);
