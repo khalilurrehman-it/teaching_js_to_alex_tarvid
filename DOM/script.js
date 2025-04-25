@@ -18,5 +18,5 @@
 // elementtagname[0].textContent = "Get element by tag name h2";
 
 // get element by query selector
-let elementquery = document.querySelectorAll("#special");
-elementquery[0].textContent = "Get element by query selector #greeting";
+// let elementquery = document.querySelectorAll("#special");
+// elementquery[0].textContent = "Get element by query selector #greeting";
