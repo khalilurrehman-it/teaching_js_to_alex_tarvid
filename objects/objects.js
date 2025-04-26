@@ -183,4 +183,4 @@
 //   ],
 // };
 
-// console.log(company.departments[0].employees[0]);
+// console.log(company.departments[0].employees[0]); // it will print Ali
